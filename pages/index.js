@@ -9,13 +9,13 @@ let bgImgURL1,
   bgImgURL3 = null;
 
 export default function Home({ postMetaData }) {
-  if (prefix != "") {
+  if (prefix !== "") {
     bgImgURL1 =
-      "bg-[url('/Fizz-Buzz-Blog/images/site-images/blog-background-1.jpg')]";
+      "bg-[url('/FizzBuzz-Blog/images/site-images/blog-background-1.jpg')]";
     bgImgURL2 =
-      "bg-[url('/Fizz-Buzz-Blog/images/site-images/blog-background-2.jpg')]";
+      "bg-[url('/FizzBuzz-Blog/images/site-images/blog-background-2.jpg')]";
     bgImgURL3 =
-      "bg-[url('/Fizz-Buzz-Blog/images/site-images/blog-background-3.jpg')]";
+      "bg-[url('/FizzBuzz-Blog/images/site-images/blog-background-3.jpg')]";
   } else {
     bgImgURL1 = "bg-[url('/images/site-images/blog-background-1.jpg')]";
     bgImgURL2 = "bg-[url('/images/site-images/blog-background-2.jpg')]";
