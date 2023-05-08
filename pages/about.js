@@ -17,8 +17,8 @@ export default function About() {
                 <section className="flex flex-col-reverse lg:flex-row items-center px-10 lg:px-5">
                     <article className="font-poppins text-xl py-2 flex flex-col space-y-4">
                         <p>
-                            <strong className="font-bold font-russo text-amber-950">
-                                FizzBuzz Blog
+                            <strong className="font-bold font-russo text-amber-500">
+                                FizzBuzz Blog.
                             </strong>{" "}
                             is the place where you can find articles on the
                             latest trends in web development and AWS cloud
@@ -28,25 +28,32 @@ export default function About() {
                         </p>
                         <p>
                             We also welcome articles from new programmers and
-                            author around the world.
+                            author around the world. If you are interested to
+                            publish your articles in our blog, please write me
+                            to{" "}
+                            <strong className="font-bold">
+                                bhar.debaditya@gmail.com
+                            </strong>{" "}
+                            with the idea.
                         </p>
                         <p>
                             The name of the blog is inspired by the popular
                             programming problem -{" "}
-                            <strong className="font-bold">FizzBuzz</strong>{" "}
-                            Problem, which is taught to the novice programmers
-                            at the basic foundation cource of programming.
+                            <strong className="font-bold">FizzBuzz</strong> ,
+                            which is taught to the novice programmers in the
+                            basic foundation course of programming.
                         </p>
                         <p>
                             It is often called as game of counting where
-                            participants have to replace multiple of 3 with the
-                            word <strong className="font-bold">Fizz</strong>,
-                            the multiple of 5 with the word{" "}
+                            participants have to replace numbers, multiples of 3
+                            with the word{" "}
+                            <strong className="font-bold">Fizz</strong>, the
+                            multiples of 5 with the word{" "}
                             <strong className="font-bold">Buzz</strong>, and the
-                            multiple of 3 and 5 with the word{" "}
+                            multiples of 3 and 5 with the word{" "}
                             <strong className="font-bold">FizzBuzz</strong>. The
-                            rest of the numbers remain unchanged. This is also
-                            popular interviw question for beginner level
+                            rest of the numbers will remain unchanged. This is
+                            also popular interview question for beginner level
                             programmers.
                         </p>
                         <p>
